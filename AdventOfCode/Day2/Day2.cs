@@ -3,7 +3,7 @@ namespace AdventOfCode.Day2;
 public class Day2
 {
     public static int Part1() =>
-        File.ReadLines("Day2/input.txt")
+                 File.ReadLines("Day2/input.txt")
             .Select(x => x.Split(' '))
             .Select(readLine => readLine switch
             {
