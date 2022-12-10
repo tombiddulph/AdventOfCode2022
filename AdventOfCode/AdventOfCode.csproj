@@ -9,30 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="Day1\input.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="Day2\input.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="Day3\input.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="Day4\input.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="Day5\input.txt">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </None>
-      <None Update="Day6\input.txt">
+      <None Update="**\input.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>
-
-    <ItemGroup>
-      <Compile Update="Day5\Day5.cs">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Compile>
-    </ItemGroup>
-
 </Project>
